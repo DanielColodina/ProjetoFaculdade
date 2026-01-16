@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('../img/hrz-5.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 89vh;
+}
+
+.info h1 {
+    font-size: 30px;
+    color: rgb(0, 162, 255);
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.info h3 {
+    font-size: 15px;
+    color: #ddd;
+}
+
+.info p {
+    font-size: 15px;
+    color: rgb(0, 162, 255);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    font-weight: bold;
+}
+
+.form-container {
+    background: #8d8d8d;
+    max-width: 400px;
+    height: 430px;
+    margin-right: 150px;
+    padding: 20px 40px 0;
+    border-radius: 5px;
+}
+
+.form-container h1 {
+    font-size: 25px;
+    color: rgb(66, 66, 66);
+    margin-bottom: 30px;
+}
+
+.form-container p {
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container select{
+    display: block;
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.form-container select {
+    width: 409px;
+}
+
+.form-container button {
+    width: 400px;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background:rgb(0, 162, 255);
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.form-container button:hover {
+    background: rgb(0, 204, 255);
+}
+
+#aprendizado h2{
+    background: rgb(131, 131, 131);
+    max-width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 40px;
+    color: #302f2f;
+}
+
+.conteudoimg {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.sectionimg img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.sectionimg p {
+    color: #666;
+    margin-top: 10px;
+    font-size: 16px;
+    width: 250px;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('../img/hrz-1.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 45vh;
+}
+
+.fa-location-dot {
+    color:rgb(0, 204, 255);
+    font-size: 50px;
+}
+
+#location .description-location{
+    color: #302f2f;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+
+}
+.section {
+
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section h2 {
+
+    font-size: 24px;
+}
+.image-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image-section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.details {
+    text-align: left;
+    width: 48%;
+}
+.details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+

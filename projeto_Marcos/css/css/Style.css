@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+body{
+    background-color: #090e22;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #1d1e33;
+    padding: 2rem;
+}
+.calc-container h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.form-control input{
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+}
+.action-control{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+button{
+    padding: 1rem 1.5rem;
+    background-color: #f44236;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    flex: 1;
+}
+#clear-btn{
+    background: #444;
+}
+
+/*table*/
+
+.hide{
+    display: none !important;
+}
+
+#result-container{
+    text-align: center;
+}
+#imc-number{
+    font-size: 2.4rem;
+    margin-bottom: 0.6rem;
+}
+
+#imc-info{
+    font-size: 1.4rem;
+    color: #ccc;
+}
+#result-container h3{
+    margin-top: 1rem;
+    color: #dfdfdf;
+}
+#result-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#imc-table{
+    margin: 1.5rem 0;
+    font-size: 0.8rem;
+}
+#back-btn{
+    align-self: center;
+}

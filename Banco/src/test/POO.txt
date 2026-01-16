@@ -1,0 +1,9 @@
+classes: sao modelos que define atributos e comportamentos
+objetos: instancia da classes
+Encapsulamento: esconder detalhes internos, usando getters/setters.
+herança: uma classe filha herda de uma classe pai
+polimofirsmo: comportamento diferente para metodos com o mesmo nome(sobrecarga/sobrescrita)
+
+#Colecoes
+List(ArrayList): Lista ordenada permite elementos repetidos.
+Set(hashSet): conjunto, não permite deuplicados, não garante ordem.

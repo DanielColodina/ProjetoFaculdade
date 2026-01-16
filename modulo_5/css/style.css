@@ -1,0 +1,26 @@
+.container{
+    margin: 80p;
+    display: flex;
+    gap: 60px;
+}            
+
+.item{
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 35px;
+    flex: auto;
+    border-radius: 150px;
+}
+.container-price li{
+    list-style: none;
+}
+
+.container-price{
+    background-color: rgb(56, 56, 205);
+    display: flex;
+    gap: 20px;
+}
+.paragraph{
+    
+}

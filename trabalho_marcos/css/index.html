@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VENDA SEU CARRO</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--Cabeçalho-->
+      <div class="header">
+        <h3 class="palavra-initial"><span style="color: #ffff;">Cadastre seu veículo para vender mais rápido!</span></h3>
+      </div>
+      <!-- Criação de formulário para a venda -->
+      <div class="venda">
+        <div class="form-container">
+          <p class="inicio-form"><span class="palavra-form"  style="color:blueviolet;">Formulário</span></p>
+          <h1>Venda fácil seu carro!</h1>
+          <p>Descreva as características e marque os opcionais que ele possui </p>
+          
+        <form>
+            <!-- Nome do carro -->
+            <div class="name-car">
+              <label>Título do anúncio <span style="color:red;">*</span></label>
+              <input
+                type="text"
+                id="title"
+                placeholder="Um título para anunciar seu carro"
+                minlength="1"
+                maxlength="15"
+              />
+            </div>
+            
+            <!-- Valor do carro -->
+            <div class="value-car">
+              <label for="price">Preço <span style="color:red;">*</span></label>
+              <input
+                type="number"
+                id="price"
+                placeholder="Defina o preço"
+                minlength="2"
+                maxlength="10"
+              />
+            </div>
+            
+            <!-- Descrição do anúncio -->
+            <div class="box-input">
+              <label class="describre-input">Descrição <span style="color:red;">*</span></label>
+              <textarea
+                name="description"
+                id="description"
+                class="block"
+                placeholder="Aqui você coloca os detalhes do veículo, por exemplo: se ele tem algum arranhão"
+              ></textarea>
+            </div>
+            
+            <!-- Marca do carro -->
+            <div class="car-brand">
+              <label for="car-brand">Marca <span style="color:red;">*</span></label>
+              <input
+                type="text"
+                id="car-brand"
+                placeholder="Digite a marca do veículo"
+                minlength="1"
+                maxlength="18"
+              />
+            </div>
+            
+            <!-- Modelo do veículo -->
+            <div class="model">
+              <label for="model-car">Modelo <span style="color:red;">*</span></label>
+              <input
+                type="text"
+                id="model-car"
+                placeholder="Digite o modelo do veículo"
+                minlength="1"
+                maxlength="15"
+              />
+            </div>
+            
+            <!-- Kilometragem do carro -->
+            <div class="mileage">
+              <label for="mileage-car">Kilometragem <span style="color:red;">*</span></label>
+              <input type="number" id="mileage-car" placeholder="Digite a kilometragem do veículo" />
+            </div>
+            
+            <!-- Data de compra do carro -->
+            <div class="purchase-date">
+              <label for="purchase-date">Data de compra <span style="color:red;">*</span></label>
+              <input type="date" id="purchase-date" />
+            </div>
+            
+            <!-- Câmbio do carro -->
+            <div class="exchange">
+              <p>Tipo de câmbio: <span style="color:red;">*</span></p>
+              <input type="radio" id="manual" name="cambio" />
+              <label for="manual">Manual</label>
+              <input type="radio" id="automatic" name="cambio" />
+              <label for="automatic">Automático</label>
+            </div>
+            
+            <!-- Opcionais do carro -->
+            <div class="optional">
+              <p>Opcionais</p>
+                
+                  <input type="checkbox" id="airbag" value="gsdggsdg"/>
+                  <label for="airbag">Airbag</label><br>
+                
+                
+                  <input type="checkbox" id="alarm" />
+                  <label for="alarm">Alarme</label><br>
+                
+                
+                  <input type="checkbox" id="ac" />
+                  <label for="ac">Ar Condicionado</label><br>
+                
+                
+                  <input type="checkbox" id="camera" />
+                  <label for="camera">Câmera de ré</label>
+
+
+                </div>
+                <div class="optional-true">
+                  <input type="checkbox" id="lane-assist" />
+                  <label for="lane-assist">Assistente de Pista</label><br>
+                
+                
+                  <input type="checkbox" id="keyless" />
+                  <label for="keyless">Partida Keyless </label><br>
+                
+                
+                  <input type="checkbox" id="cell-integration" />
+                  <label for="cell-integration">Integração com Celular</label><br>
+                
+                
+                  <input type="checkbox" id="leather-seats" />
+                  <label for="leather-seats">Banco de Couro</label><br>
+                
+                </div>
+            
+            
+            <!-- Fotos do carro -->
+            <div class="car-photos">
+              <p>Fotos do carro: <span style="color:red;">*</span></p>
+              <input type="file" id="car-photos" />
+            </div>
+            
+            <!-- Enviar arquivo -->
+            <div class="send">
+              <input type="submit" value="Enviar" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div><!-- Fim do formulário -->
+  </body>
+</html>

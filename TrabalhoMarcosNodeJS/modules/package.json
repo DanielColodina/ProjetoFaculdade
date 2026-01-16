@@ -1,0 +1,10 @@
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^12.9.4",
+    "minimist": "^1.2.8"
+  }
+}

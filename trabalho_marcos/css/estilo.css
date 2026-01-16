@@ -1,0 +1,169 @@
+body{
+background: #e6ccef;
+
+}
+
+.container{
+    margin-left:30%;
+    margin-right: 30%;
+    
+}
+.header{
+    position: absolute;
+    left:0%;
+    top: 4%;
+    width: 100%;
+    height: 270px;
+    background-color: #7f4ca5;
+    margin-top: -6%;
+}
+    
+.palavra-initial{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+padding: 100px 25px;
+font-size: 24px;
+
+}
+
+.venda{
+    opacity: 0.99;
+    background-color: #ffffff;
+    font-size: 20px;
+    
+}
+
+
+.form-container{
+    display: block;
+    padding:0px 20px 0px;
+}
+.inicio-form{
+    border-bottom: 1.8px solid #DCD7D7;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+.palavra-form{
+        padding: 20px;
+        display: inline-block;
+        border-bottom: 3px solid #ad0bce;
+        padding-bottom: 2px;
+    
+}
+
+form{
+    padding: 35px 30px 70px;
+
+}
+
+
+.name-car input{
+	width: 400px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+    padding:10px 20px 10px;
+}
+.value-car input{
+    width: 400px;
+    border:0;
+    outline: 0;
+    border-bottom: 1.5px solid #DCD7D7;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+    padding:10px 20px 10px;
+}
+
+.describre-input{
+
+    width: 395px;
+    display: inline-block;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+
+}
+.box-input textarea{
+        width:350px;
+        border: 1px solid #DCD7D7;
+        font-size: 15px;
+        display: block;
+        margin-bottom: 0px;
+        padding:10px 20px 20px;
+
+}
+.car-brand input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #DCD7D7;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+    padding:10px 20px 10px;
+}
+.model input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #DCD7D7;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+    padding:10px 20px 10px;
+}
+.mileage input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #DCD7D7;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+    padding:10px 20px 10px;
+}
+.purchase-date input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #DCD7D7;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+    padding:10px 20px 10px;
+}
+
+.optional,.optional-true{
+
+    flex-direction: column;
+    gap: 10px;
+}
+
+.optional {
+
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5px;
+}
+.optional-true{
+
+    align-items: center;
+    gap: 5px;
+}
+
+.car-photos{
+    width: 400px;
+    border-bottom: 1.5px solid #DCD7D7;
+}
+.send{
+    padding: 60px 0px 0px;
+}
+.send input{
+    background-color: #7f4ca5;
+    color: #ffffff;
+    padding: 20px 60px;
+    border: 0;
+}

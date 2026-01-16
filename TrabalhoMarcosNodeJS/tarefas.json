@@ -1,0 +1,30 @@
+[
+  {
+    "tarefa": "trabalho",
+    "concluida": true
+  },
+  {
+    "tarefa": "trabalho",
+    "concluida": true
+  },
+  {
+    "tarefa": "trabalho",
+    "concluida": false
+  },
+  {
+    "tarefa": "escovar",
+    "concluida": true
+  },
+  {
+    "tarefa": "ok",
+    "concluida": false
+  },
+  {
+    "tarefa": "5",
+    "concluida": false
+  },
+  {
+    "tarefa": "kk",
+    "concluida": false
+  }
+]
