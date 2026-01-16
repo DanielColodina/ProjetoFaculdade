@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+.navbar-container {
+    background-color: #232a31;
+    height: 80px;
+    padding: 0 2rem;
+}
+
+nav {
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 15px;
+}
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-items a:hover {
+    color: #ccc;
+    transition: 0.5s;
+}
+
+.default-btn {
+    background: #2cc76a;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.default-btn:hover {
+    background-color: #2c00ef;
+    transition: 0.8s;
+    color: #fff;
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+}
+
+.banner img {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+.mensagem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   
+}
+
+
+.mensagem  p {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 30px;;
+    color: white;
+}
+
+.mensagem h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: white;
+}
