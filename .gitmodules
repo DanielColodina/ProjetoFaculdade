@@ -1,0 +1,3 @@
+[submodule "Minados"]
+	path = Minados
+	url = https://github.com/DanielColodina/Minados.git
